@@ -1,0 +1,54 @@
+
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      min-height:100vh;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      font-family:Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      background:linear-gradient(180deg,var(--bg),#071021 120%);
+      color:var(--text);
+      padding:24px;
+    }
+
+    tr,td{
+      position: relative;
+      top: 0%;
+      left: 30%;
+        width: 50%;
+        margin: 4px;
+        display:grid;
+        grid-template-columns:repeat(4,1fr);
+      gap:10px;
+    }
+    button{
+        width:100px;
+        height: 100px;
+      border:0;
+      padding:16px 10px;
+      font-size:18px;
+      border-radius:10px;
+      cursor:pointer;
+      user-select:none;
+      box-shadow:0 6px 12px rgba(2,6,23,0.5);
+    }
+    caption{
+        justify-content: left;
+    }
+    #remove{
+      position: relative;
+      top: 20%;
+      left: 35%;
+      background-color: bisque;
+      width: 33%;
+      height:15%;
+    }
+    .text{
+      position: relative;
+      top: 20%;
+      left: 35%;
+    }
+    #MSG{
+      color: rgb(206, 113, 0);
+    }
